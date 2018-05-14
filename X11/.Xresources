@@ -1,0 +1,9 @@
+xURxvt.font: xft:Envy Code R:pixelsize=24
+Xft.dpi: 272
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintnone
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
