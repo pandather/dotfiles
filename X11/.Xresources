@@ -1,4 +1,5 @@
-xURxvt.font: xft:Envy Code R:pixelsize=24
+URxvt.font: xft:Envy Code R:pixelsize=24
+URxvt.scrollBar: false
 Xft.dpi: 272
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault

@@ -50,5 +50,5 @@ fi
 
 # exec xset +fp /usr/share/fonts/ &
 compton -CGb &
-wal -i ~/Pictures/Wallpapers &
-exec bspwm
+feh --bg-scale ~/Pictures/Wallpapers/mountain.jpg &
+exec i3
