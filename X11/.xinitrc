@@ -32,6 +32,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # exec xset +fp /usr/share/fonts/ &
-compton -CGb &
-wal -i ~/Pictures/Wallpapers/ &
+compton -CGb --inactive-dim 0.3 &
+wal -i ~/Media/Photos/Wallpapers/ &
 exec bspwm
