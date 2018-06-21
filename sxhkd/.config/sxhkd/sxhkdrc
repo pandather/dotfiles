@@ -137,6 +137,29 @@ XF86AudioMute
 	amixer set Master toggle
 
 #
+# music control
+#
+
+# previous track
+XF86AudioPrev
+	mpd prev
+
+# play/pause
+XF86AudioPlay
+	mpd toggle
+
+# next track
+XF86AudioNext
+	mpd next
+
+#
 # brightness control
 #
 
+# brightness -= 5%
+XF86MonBrightnessDown
+	xbacklight -dec 5
+
+# brightness += 5%
+XF86MonBrightnessUp
+	xbacklight -inc 5
