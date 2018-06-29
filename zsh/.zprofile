@@ -1,3 +1,1 @@
-if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-    exec startx
-fi
+# Put stuff to start on login here.
