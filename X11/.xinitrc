@@ -33,5 +33,5 @@ fi
 
 # exec xset +fp /usr/share/fonts/ &
 compton -CGb --inactive-dim 0.3 &
-wal -i ~/Media/Photos/Wallpapers/ &
-exec i3
+wal -i ~/media/photos/wallpapers/ &
+exec bspwm

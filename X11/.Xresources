@@ -1,4 +1,4 @@
-#define myfont		FreeMono
+#define myfont		Ti92Pluspc
 #define myfontSize	20
 
 Xft.dpi: 192

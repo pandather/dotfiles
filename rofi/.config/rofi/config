@@ -7,7 +7,7 @@ rofi.lines:                          3
 ! "Number of columns" Set from: Default
 rofi.columns:                        3
 ! "Font to use" Set from: Default
-rofi.font:                           Envy Code R 22
+rofi.font:                           Ti92Pluspc 20
 ! "Border width" Set from: Default
 rofi.bw:                             0
 ! "Location on screen" Set from: Default

@@ -40,11 +40,11 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Envy Code R:pixelsize=22;1
-font-1 = Envy Code R:pixelsize=22;1
-font-2 = Envy Code R:pixelsize=22;1
+font-0 = Ti92Pluspc:pixelsize=20;1
+font-1 = Ti92Pluspc:pixelsize=20;1
+font-2 = Ti92Pluspc:pixelsize=20;1
 
-modules-left = i3
+modules-left = bspwm
 modules-center = 
 modules-right = filesystem xbacklight volume memory cpu wlan battery temperature date powermenu
 
