@@ -1,7 +1,7 @@
-#define myfont		Envy Code R
-#define myfontSize	24
+#define myfont		FreeMono
+#define myfontSize	20
 
-Xft.dpi: 272
+Xft.dpi: 192
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintnone
