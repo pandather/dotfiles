@@ -8,6 +8,8 @@ compinit
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
+GTK2_RC_FILES=~/.cache/wal
+
 
 bindkey -e
 

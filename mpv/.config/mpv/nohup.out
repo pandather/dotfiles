@@ -1,0 +1,17 @@
+Bars launched...
+polybar|error: Disabling module "wlan" (reason: Invalid network interface "wlp58s0")
+polybar|error: Disabling module "temperature" (reason: The file '/sys/class/thermal/thermal_zone0/temp' does not exist)
+polybar|error: Disabling module "wlan" (reason: Invalid network interface "wlp58s0")
+polybar|error: Disabling module "temperature" (reason: The file '/sys/class/thermal/thermal_zone0/temp' does not exist)
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  Systray selection already managed (window=0x0a00006)
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  module/filesystem: Mountpoint ~/ is not mounted
+polybar|warn:  Termination signal received, shutting down...
+polybar|warn:  Termination signal received, shutting down...

@@ -1,0 +1,5 @@
+[Settings]
+gtk-icon-theme-name = "wal"
+gtk-theme-name = "wal"
+gtk-font-name = "Envy Code R 12"
+gtk-key-theme-name = "Emacs"
