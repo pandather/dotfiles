@@ -32,3 +32,9 @@
 (require 'filenotify)
 (file-notify-add-watch
   "~/.emacs.d/base16-wal-theme.el" '(change) 'theme-callback)
+
+(require `tls)
+(defun znc ()
+  "Connect to ZNC server at sadbox.org."
+  (interactive)
+  (erc-tls :server "sadbox.org" :port 6697 :nick "pandather"))

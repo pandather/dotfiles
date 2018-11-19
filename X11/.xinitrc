@@ -34,7 +34,9 @@ fi
 wal -i ~/media/photos/wallpapers/ -g -o ~/.config/wal/scripts/emacs.sh
 wal-steam -w &
 compton -CGb --inactive-dim 0.3 &
+#sudo tunsafe start -d ~/mullvad/mullvad-us7.conf &
 
 export _JAVA_AWT_WM_NONREPARENTING=1 &
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true' &
 exec bspwm
+#exec herbstluftwm
