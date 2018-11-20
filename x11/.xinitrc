@@ -36,5 +36,6 @@ wal -i ~/media/photos/wallpapers/ -g -o ~/.config/wal/scripts/emacs.sh
 wal-steam -w &
 
 export _JAVA_AWT_WM_NONREPARENTING=1 &
+export TERMINAL=urxvt &
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true' &
 exec bspwm
