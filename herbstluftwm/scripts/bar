@@ -1,0 +1,7 @@
+#!/bin/bash
+
+PANEL_FIFO=/tmp/panel-fifo
+PANEL_HEIGHT=25
+PANEL_FONT="Hermit:size=9"
+PANEL_FONT_ICON="icomoon:size=9"
+PANEL_WM_NAME=hlwm_panel
