@@ -1,0 +1,8 @@
+--output ~/media/videos/youtube/%(uploader)s/%(title)s.%(ext)s
+--youtube-skip-dash-manifest
+--merge-output-format mkv
+--audio-format best
+--audio-quality 0
+--recode-video mkv
+--embed-subs
+--add-metadata

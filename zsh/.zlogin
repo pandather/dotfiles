@@ -1,13 +1,18 @@
 # ZSH Settings
-export HISTFILE=~/.histfile
-export HISTSIZE=1000
-export SAVEHIST=1000
+HISTFILE=${HOME}/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+export HISTFILE HISTSIZE SAVEHIST
 
 # Global Settings
-export PATH=${PATH}:${HOME}/bin
-export EDITOR='emacsclient -t'
-export ALTERNATE_EDITOR="emacs --daemon && $EDITOR"
-export PROMPT=$'%m%% '
-export GTK2_RC_FILES=~/.cache/wal
+LANG=en_US.UTF-8
+LC_COLLATE=C
+LC_CTYPE=$LANG
+PATH=${PATH}:${HOME}/bin
+EDITOR='emacsclient -t'
+ALTERNATE_EDITOR="emacs --daemon && ${EDITOR}"
+PROMPT='%m%% '
+GTK2_RC_FILES="${HOME}/.cache/wal"
+export PATH EDITOR ALTERNATE_EDITOR PROMPT GTK2_RC_FILES
 
 # exec startx

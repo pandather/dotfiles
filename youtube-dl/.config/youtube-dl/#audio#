@@ -1,0 +1,8 @@
+--extract-audio
+--output ~/media/music/youtube/%(uploader)s/%(title)s.%(ext)s
+--youtube-skip-dash-manifest
+--audio-format best
+--audio-quality 0
+--recode-video mkv
+--add-metadata
+--embed-thumbnail
