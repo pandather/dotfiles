@@ -1,2 +1,55 @@
-defaults.pcm.!card S2
-defaults.ctl.!card S2
+pcm.mixer {
+    type asym
+    playback.pcm {
+        type dmix
+        ipc_key 736182
+        ipc_perm 0660
+        ipc_gid audio
+        slave {
+            channels 2
+            pcm {
+                type hw
+                card S2
+                format S16_LE
+                rate 44100
+            }
+            period_size 1024
+            buffer_size 8192
+
+        }
+    }
+}
+
+pcm.!default {
+     type plug
+     slave.pcm "mixer"
+}
+
+#pcm.schiit {
+#    type hw
+#    card S2
+#    format S32_LE
+#    rate 44100
+#}
+
+#pcm.mixer {
+#    type dmix
+#    ipc_key 1879
+#    ipc_key_add_uid 0
+#    slave {
+#        pcm "hw:0"
+#        period_time 0
+#        period_size 1024
+#        buffer_size 8192
+#    }
+#}
+
+#pcm.!default {
+#    type plug
+#    slave.pcm "mixer"
+#}
+
+ctl.!default {
+    type hw
+    card S2
+}

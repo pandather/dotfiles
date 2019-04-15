@@ -1,4 +1,10 @@
 # Dark theme.
 # rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
 # Light theme.
- rofi.theme: ~/.cache/wal/colors-rofi-light.rasi
+rofi.theme:             ~/.cache/wal/colors-rofi-light.rasi
+rofi.lines:             5
+rofi.threads:           16
+rofi.case-sensitive:    false
+rofi.width:             -20
+rofi.sort:              true
+rofi.sorting-method:    normal

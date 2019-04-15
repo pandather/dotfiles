@@ -1,10 +1,7 @@
-Xft.autohint:           1
-Xft.lcdfilter:          lcddefault
-Xft.hintstyle:          hintfull
-Xft.hinting:            1
-Xft.antialias:          1
-Xft.rgba:               rgb
-URxvt.font:             xft:Hermit-10
+URxvt.font:             xft:xos4 Terminus:style=Regular
+URxvt.boldFont:         xft:xos4 Terminus:style=Bold
+URxvt.italicFont:       xft:xos4 Terminus:style=Regular
+URxvt.boldItalicFont:   xft:xos4 Terminus:style=Bold
 URxvt.scrollBar:        false
 URxvt.depth:            32
-dzen2.font:             -misc-hermit-medium-r-normal--0-100-0-0-m-0-iso10646-1
+dzen2.font:             xft:xos4 Terminus:style=Regular

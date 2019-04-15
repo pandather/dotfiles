@@ -11,18 +11,12 @@ if [ -f "$userresources" ]; then
     xrdb -merge "$userresources"
 fi
 
-xset b off
-mkfontscale ~/.local/share/fonts
-mkfontdir ~/.local/share/fonts
-xset fp+ ~/.local/share/fonts
-xset fp rehash
-fc-cache
-
-wal -i ~/media/photos/wallpapers/snowymountains.jpg -o ~/.config/wal/scripts/startup.sh -g
+wal -i ~/media/photos/wallpapers/denali.jpg -o ~/.config/wal/scripts/startup.sh
 #wal-steam -w &
-compton --daemon
+compton -b
 #sudo tunsafe start -d ~/mullvad/mullvad-us7.conf &
 urxvtd -f -q -o &
 emacs --daemon
 export _JAVA_AWT_WM_NONREPARENTING=1 &
 exec herbstluftwm -l
+#exec bspwm
